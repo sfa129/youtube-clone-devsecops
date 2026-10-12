@@ -40,6 +40,7 @@ The intended workflow is:
 7. Kubernetes manages two application replicas across worker nodes.
 8. A Kubernetes LoadBalancer Service exposes the application through an AWS Load Balancer.
 9. Prometheus collects metrics and Grafana provides monitoring dashboards.
+10. Grafana dashboards provide visualizations of AWS infrastructure health, Kubernetes deployment metrics, and application performance statistics. 
 
 Terraform is used for infrastructure provisioning. It is responsible for creating the AWS resources defined in the Terraform configuration, rather than building or deploying the application itself.
 
@@ -104,22 +105,14 @@ Only resources and monitoring configurations that were actually deployed should 
 
 ## Screenshots and Evidence
 
-Add screenshots from the completed lab to a `docs/` directory and link them here.
-
-- [ ] Jenkins successful pipeline ![Screenshot Alt Text](doc/Success - Jenkins Logs filename.png)
-- [ ] SonarQube project analysis
-- [ ] Trivy scan output
-- [ ] Docker Hub image
-- [ ] Kubernetes pods and worker nodes
-- [ ] Kubernetes LoadBalancer Service
-- [ ] Prometheus and Grafana dashboards
-- [ ] Architecture diagram
+1. All screenshots present in /docs folder.
+2. Video Link https://youtu.be/2tNz3LTbxyE
 
 ## Key Learning Outcomes
 
 Through this project, I gained hands-on experience with:
 
-- Building a multi-stage CI/CD pipeline in Jenkins.
+- Building a multi-stage automated CI/CD pipeline in Jenkins.
 - Integrating source code quality analysis and security scanning.
 - Building and publishing Docker images.
 - Deploying containerized applications to Kubernetes on Amazon EKS.
@@ -129,12 +122,9 @@ Through this project, I gained hands-on experience with:
 - Cleaning up AWS infrastructure to manage cloud expenditure.
 
 ## Future Improvements
-
-- Automate Jenkins builds through a GitHub webhook.
 - Use unique Docker image tags for reproducible deployments.
 - Store Kubernetes manifests and the Jenkins pipeline in version control.
 - Improve secret management and image-scanning policy enforcement.
-- Add an architecture diagram and screenshots of verified results.
 - Recreate the environment on demand for demonstrations.
 
 ## Attribution
