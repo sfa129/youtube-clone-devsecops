@@ -106,7 +106,7 @@ Only resources and monitoring configurations that were actually deployed should 
 
 Add screenshots from the completed lab to a `docs/` directory and link them here.
 
-- [ ] Jenkins successful pipeline
+- [ ] Jenkins successful pipeline ![Screenshot Alt Text](doc/Success - Jenkins Logs filename.png)
 - [ ] SonarQube project analysis
 - [ ] Trivy scan output
 - [ ] Docker Hub image
