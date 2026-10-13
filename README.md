@@ -1,4 +1,5 @@
 # End-to-End DevSecOps CI/CD Pipeline on AWS
+<img width="1536" height="1024" alt="End-to-End DevOps Architecture Diagram" src="https://github.com/user-attachments/assets/cdb2a95d-972c-4a60-9380-1281213ae0ee" />
 
 A YouTube Clone application deployed using an automated DevSecOps workflow with Jenkins, SonarQube, Trivy, Docker, Docker Hub, Kubernetes, Amazon EKS, Terraform, Prometheus, and Grafana.
 
